@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-2</title>
+    <script src="https://kit.fontawesome.com/e25860e8c3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+          *{
+            margin: auto;
+            padding: auto;
+            font-family: 'Playfair Display', serif;
+        }
+        .header{
+            min-height: 100vh;
+            width: 100%;
+            background-color: black;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+        nav{
+            display: flex;
+            padding: 2% 6%;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .portfolio h1{
+            text-align: left;
+            color:yellow;
+            font-size: 35px;
+            position: absolute;
+            top: 3.7%;
+            left: 4%;
+        }
+        .nav_links{
+            flex: 1;
+            text-align: right;
+        }
+        .nav_links ul li{
+            list-style: none;
+            display: inline-block;
+            padding: 8px 12px;
+            
+        }
+        .nav_links ul li a{
+            color: #fff;
+            text-decoration: none;
+            font-size: 13px;
+        }
+        .image{
+            display: flex;
+            flex-wrap: wrap;
+            position: absolute;
+            top:20%;
+            left: 2.5%;
+        }
+        .image img{
+            width: 400px;
+            height: 500px;
+            position: absolute;
+            left: 5%;
+            border-radius: 10px;
+        }
+        .name h1{
+            text-align: center;
+            color: #fff;
+            position: absolute;
+            top: 40%;
+            left: 40%;
+            font-size: 30px;
+        }
+        .name h2{
+            text-align: center;
+            color: #fff;
+            position: absolute;
+            top: 47%;
+            left: 40%;
+            font-size: 40px;
+        }
+        .name p{
+            text-align: center;
+            color: #fff;
+            position: absolute;
+            top: 55%;
+            left: 40%;
+            font-size: 30px;
+        }
+        .About{
+            position: relative;
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding-top: 100px;
+        }
+        .About h1{
+            font-size: 36px;
+            font-weight: 600;
+        }
+        .About p{
+            color: #777;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            padding: 10px;
+        }
+        .row{
+            margin-top: 5%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .col{
+            flex-basis: 31%;
+            background: #f5f554;
+            border-radius: 10px;
+            margin-bottom: 5%;
+            padding: 20px 12px;
+            box-sizing: border-box;
+            transition: 0.5s;
+        }
+        .col h3{
+            font-weight: 600;
+            text-align: center;
+            margin: 5px 0;
+        }   
+        .col:hover{
+            box-shadow: 0 0  20px 0px rgba(0,0,0,0.2);
+        }
+        .Services,.Works{
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding-top: 100px;
+        }
+        .Services h1,.Works h1{
+            font-size: 36px;
+            font-weight: 600;
+        }
+        .Services p,.Works p{
+            color:#777;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            padding: 10px;
+        }
+        .Row{
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        .Col:hover{
+            box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+        }
+        .Row div img{
+            width: 300px;
+            height: 400px;
+        }
+        .Col{
+            border-radius: 10px;
+            transition: 1s;
+            padding: 10px;
+        }
+        .footer{
+            width: 100%;
+            text-align: center;
+            padding: 30px 0;
+        }
+        .footer p{
+            color: #777;
+        }
+        .footer a,i{
+            color: black;
+            font-size: larger;
+        }
+        .footer h2{
+            margin-bottom: 25px;
+            margin-top: 20px;
+            font-size: 36px;
+            font-weight: 600;
+            font-weight: bold;
+        }
+        .icons{
+            color: #f44336;
+            margin: 0 13px;
+            cursor: pointer;
+            padding: 18px 0;
+            size: 10px;
+        }
+        .fa-heart-o{
+            color: #f44336;
+        }
+    </style>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="portfolio">
+                <h1>
+                    PORTFOLIO
+                </h1>
+            </div>
+            
+            <div class="nav_links">
+
+                <ul>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="">WORK</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="image">
+                <img src="Alizar_photo.jpeg" >
+            </div>
+            <div class="name">
+                <h1>My name is</h1>
+                <h2><b>MIRZA MOHAMMAD ALIZAR</b></h2>
+                <p>& I am a Software Engineer</p>
+
+            </div>
+        </nav>
+    </section>
+    
+    <section class="About">
+        <h1>About</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, laboriosam!</p>
+        <div class="row">
+            <div class="col">
+                <h2>Education</h2>
+                <p>Currently pursuing B.Tech in Computer Science(Artificial Intelligence) from ABESIT</p>
+            </div>
+            <div class="col">
+                <h3><b>Skills</b></h3>
+                <p>Web Development,<br> Graphic Designing(Logo,Poster Making)</p>
+            </div>
+        </div>
+        
+    </section>
+    <section class="Services">
+        <h1>Services</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, ab facere.</p>
+        <div class="Row">
+
+            <div class="Col">
+                <img src="Web_design.webp">
+                <p class="name"><b>WEB DESIGNING</b></p>
+            </div>
+            
+            <div class="Col">
+                <img src="graphic_designing.webp">
+                <p class="name"><b>GRAPHIC DESIGNING</b></p>
+            </div>
+            
+            <div class="Col">
+                <img src="tourism.webp">
+                <p class="name"><b>OTHER(TOURISM,ETC.)</b></p>
+            </div>
+        </div>
+            
+    </section>
+    <section class="Works">
+        <h1>Works</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, ab facere.</p>
+        <div class="Row">
+
+            <div class="Col">
+                <img src="Web capture_7-3-2023_105010_.jpeg">
+            </div>
+            
+            <div class="Col">
+                <img src="Web capture_7-3-2023_105429_.jpeg">
+            </div>
+            
+            <div class="Col">
+                <img src="poster.jpeg">
+            </div>
+        </div>
+            
+    </section>
+    <section class="footer">
+        <h2>Contact</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ex.</p>
+        <br>
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto:mirza2021csai116@abesit.edu.in">mirza2021csai116@abesit.edu.in</a>
+        <div class="icons">
+            <a href="http://facebook.com"> <i class="fa fa-facebook-square"></i></a>
+            <a href="http://linkedin.com"> <i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="Row">
+            <div class="Col">
+                <img src="map.jpeg">
+                <p><b>Address</b><br>20/9 Lal Quarter Lohia Nagar, Ghaziabad</p>
+            </div>
+        </div>
+        <br>
+        <p1>Made with <i class="fa fa-heart-o"></i> by <b>OASIS INFOBYTE</b><p1>
+    </section>
+</body>
+</html>
